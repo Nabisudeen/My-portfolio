@@ -9,7 +9,7 @@ export const skillsData = [
   'PostgreSQL',
   'Git',
   'AWS',
-  'Matlab'
+  'Microsoft Office'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

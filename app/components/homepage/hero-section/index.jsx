@@ -99,84 +99,76 @@ function HeroSection() {
           </div>
           <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
             <code className="font-mono text-xs md:text-sm lg:text-base">
-              <div className="blink">
-                <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
-                <span className="mr-2 text-pink-500">=</span>
-                <span className="text-gray-400">{'{'}</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Nabisudeen</span>
-                <span className="text-gray-400">{`',`}</span>
-              </div>
-              <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
-                <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">Python</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Java</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MYSQL</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">OpenCV</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">HTML</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">CSS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Numpy</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Pandas</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
-                <span className="text-gray-400">{"'],"}</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">quickLearner:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">problemSolver:</span>
-                <span className="text-orange-400">true</span>
-                <span className="text-gray-400">,</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
-                <span className="text-orange-400">function</span>
-                <span className="text-gray-400">{'() {'}</span>
-              </div>
-              <div>
-                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
-                <span className="text-gray-400">{`(`}</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">hardWorker</span>
-                <span className="text-amber-300">&amp;&amp;</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">problemSolver</span>
-                <span className="text-amber-300">&amp;&amp;</span>
-              </div>
-              <div>
-                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                <span className="mr-2 text-white">skills.length</span>
-                <span className="mr-2 text-amber-300">&gt;=</span>
-                <span className="text-orange-400">5</span>
-              </div>
-              <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
-              <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
-              <div><span className="text-gray-400">{`};`}</span></div>
-            </code>
+  <div className="blink">
+    <span className="mr-2 text-pink-500">class</span>
+    <span className="mr-2 text-white">Coder</span>
+    <span className="text-gray-400">:</span>
+  </div>
+  <div>
+    <span className="ml-4 lg:ml-8 text-white">def</span>
+    <span className="text-amber-300 ml-2">__init__</span>
+    <span className="text-white">(self):</span>
+  </div>
+  <div className="ml-8 lg:ml-16">
+    <span className="text-white">self.name</span>
+    <span className="text-gray-400"> = </span>
+    <span className="text-green-300">'Nabisudeen'</span>
+  </div>
+  <div className="ml-8 lg:ml-16">
+    <span className="text-white">self.skills</span>
+    <span className="text-gray-400"> = [</span>
+    <span className="text-green-300">'Python'</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">'Java'</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">'MYSQL'</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">'OpenCV'</span><span className="text-gray-400">,</span>
+  </div>
+  <div className="ml-16 lg:ml-24">
+    <span className="text-green-300">'HTML'</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">'CSS'</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">'Numpy'</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">'Pandas'</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">'AWS'</span>
+    <span className="text-gray-400">]</span>
+  </div>
+  <div className="ml-8 lg:ml-16">
+    <span className="text-white">self.hard_worker</span>
+    <span className="text-gray-400"> = </span>
+    <span className="text-orange-400">True</span>
+  </div>
+  <div className="ml-8 lg:ml-16">
+    <span className="text-white">self.quick_learner</span>
+    <span className="text-gray-400"> = </span>
+    <span className="text-orange-400">True</span>
+  </div>
+  <div className="ml-8 lg:ml-16">
+    <span className="text-white">self.problem_solver</span>
+    <span className="text-gray-400"> = </span>
+    <span className="text-orange-400">True</span>
+  </div>
+  <div>
+    <span className="ml-4 lg:ml-8 text-white">def</span>
+    <span className="text-amber-300 ml-2">is_hireable</span>
+    <span className="text-white">(self):</span>
+  </div>
+  <div className="ml-8 lg:ml-16">
+    <span className="text-white">return</span>
+    <span className="text-gray-400"> (</span>
+  </div>
+  <div className="ml-12 lg:ml-24 text-cyan-400">self.hard_worker</div>
+  <div className="ml-12 lg:ml-24">
+    <span className="text-pink-500">and</span>
+    <span className="ml-2 text-cyan-400">self.problem_solver</span>
+  </div>
+  <div className="ml-12 lg:ml-24">
+    <span className="text-pink-500">and</span>
+    <span className="ml-2 text-cyan-400">len(self.skills)</span>
+    <span className="text-amber-300"> &gt;= </span>
+    <span className="text-orange-400">5</span>
+  </div>
+  <div className="ml-8 lg:ml-16">
+    <span className="text-gray-400">)</span>
+  </div>
+</code>
           </div>
         </div>
       </div>
