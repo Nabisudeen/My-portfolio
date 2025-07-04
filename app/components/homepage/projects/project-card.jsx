@@ -30,19 +30,19 @@ function ProjectCard({ project }) {
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">"name"</span>
+            <span className="text-white">&quot;name&quot;</span>
             <span className="text-gray-400">: </span>
-            <span className="text-green-300">"{project.name}"</span>
+            <span className="text-green-300">&quot;{project.name}&quot;</span>
             <span className="text-gray-400">,</span>
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">"tools"</span>
+            <span className="text-white">&quot;tools&quot;</span>
             <span className="text-gray-400">: [</span>
             {
               project.tools.map((tool, i) => (
                 <React.Fragment key={i}>
-                  <span className="text-green-300">"{tool}"</span>
+                  <span className="text-green-300">&quot;{tool}&quot;</span>
                   {
                     i < project.tools.length - 1 && <span className="text-gray-400">, </span>
                   }
@@ -53,16 +53,16 @@ function ProjectCard({ project }) {
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">"my_role"</span>
+            <span className="text-white">&quot;My_role&quot;</span>
             <span className="text-gray-400">: </span>
-            <span className="text-green-300">"{project.role}"</span>
+            <span className="text-green-300">&quot;{project.role}&quot;</span>
             <span className="text-gray-400">,</span>
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className="text-white">"description"</span>
+            <span className="text-white">&quot;description&quot;</span>
             <span className="text-gray-400">: </span>
-            <span className="text-green-300">"{project.description}"</span>
+            <span className="text-green-300">&quot;{project.description}&quot;</span>
           </div>
 
           <div>

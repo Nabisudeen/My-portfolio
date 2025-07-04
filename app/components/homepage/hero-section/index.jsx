@@ -112,22 +112,22 @@ function HeroSection() {
   <div className="ml-8 lg:ml-16">
     <span className="text-white">self.name</span>
     <span className="text-gray-400"> = </span>
-    <span className="text-green-300">'Nabisudeen'</span>
+    <span className="text-green-300">&apos;Nabisudeen&apos;</span>
   </div>
   <div className="ml-8 lg:ml-16">
     <span className="text-white">self.skills</span>
     <span className="text-gray-400"> = [</span>
-    <span className="text-green-300">'Python'</span><span className="text-gray-400">, </span>
-    <span className="text-green-300">'Java'</span><span className="text-gray-400">, </span>
-    <span className="text-green-300">'MYSQL'</span><span className="text-gray-400">, </span>
-    <span className="text-green-300">'OpenCV'</span><span className="text-gray-400">,</span>
+    <span className="text-green-300">&apos;Python&apos;</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">&apos;Java&apos;</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">&apos;MYSQL&apos;</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">&apos;OpenCV&apos;</span><span className="text-gray-400">,</span>
   </div>
   <div className="ml-16 lg:ml-24">
-    <span className="text-green-300">'HTML'</span><span className="text-gray-400">, </span>
-    <span className="text-green-300">'CSS'</span><span className="text-gray-400">, </span>
-    <span className="text-green-300">'Numpy'</span><span className="text-gray-400">, </span>
-    <span className="text-green-300">'Pandas'</span><span className="text-gray-400">, </span>
-    <span className="text-green-300">'AWS'</span>
+    <span className="text-green-300">&apos;HTML&apos;</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">&apos;CSS&apos;</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">&apos;Numpy&apos;</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">&apos;Pandas&apos;</span><span className="text-gray-400">, </span>
+    <span className="text-green-300">&apos;AWS&apos;</span>
     <span className="text-gray-400">]</span>
   </div>
   <div className="ml-8 lg:ml-16">
